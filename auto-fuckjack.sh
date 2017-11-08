@@ -17,7 +17,7 @@
 # Replace the value in the first of "ANDROID_JACK_VM_ARGS" with half of your RAM
 # (i.e.: if you have 8GB of ram, use "-Xmx4g")
 #
-  export ANDROID_JACK_VM_ARGS="-Xmx4g -XX:+TieredCompilation -Dfile.encoding=UTF-8"
+  export ANDROID_JACK_VM_ARGS="-Xmx1024m -Dfile.encoding=UTF-8 -XX:+TieredCompilation"
 #
 # IMPORTANT! IMPORTANT! IMPORTANT! IMPORTANT! IMPORTANT! IMPORTANT! IMPORTANT! IMPORTANT! IMPORTANT! IMPORTANT!
 
